@@ -1,0 +1,10 @@
+{
+  "name": "dynamis-zelos",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Wireless sEMG research dashboard and BLE reference firmware",
+  "license": "SEE LICENSE IN LICENSE",
+  "engines": { "node": ">=22" },
+  "scripts": { "start": "node scripts/serve.mjs", "test": "node --test", "check": "node --check web/app.js && node --check web/core.js && node --check web/session.js" }
+}

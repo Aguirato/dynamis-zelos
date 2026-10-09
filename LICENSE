@@ -1,0 +1,116 @@
+DYNAMIS ZELOS Non-Commercial License 1.0
+
+Copyright (c) 2026 Lucas Aguiar (Aguirato).
+
+1. Scope and definitions
+
+"Licensor" means Lucas Aguiar (Aguirato) and, for their respective
+contributions, other copyright holders who expressly release their work
+under this license. "Work" means the original software, firmware,
+documentation, illustrations, visual assets, and design materials in this
+repository that are not identified as being under another license.
+
+"Non-Commercial Purpose" means a purpose that is not intended for or
+directed toward commercial advantage or monetary compensation. It includes
+personal experimentation, unpaid teaching, and independent non-commercial
+research, subject to the restrictions below. A person's or organization's
+nonprofit status alone does not make a use non-commercial.
+
+2. Permission for non-commercial use
+
+Subject to all terms of this license, the Licensor grants you a worldwide,
+non-exclusive, royalty-free permission to inspect, run, reproduce, modify,
+and create derivative works of the Work solely for Non-Commercial Purposes.
+You may make personal, non-commercial prototypes from design materials
+included in the Work, to the extent the Licensor controls the necessary
+copyright permissions. You may redistribute the Work, including modified
+versions and executable copies, solely for Non-Commercial Purposes and
+only in compliance with Section 4.
+
+3. Commercial use and commercial redistribution are prohibited
+
+Without a separate written license from the relevant copyright holder(s),
+you must not use, reproduce, modify, distribute, sublicense, sell, rent,
+license, or otherwise exploit the Work for a commercial purpose.
+
+Prohibited uses include, without limitation:
+
+- incorporating the Work into a product, device, subscription, or service
+  supplied for payment or commercial advantage;
+- operating the Work in paid coaching, personal training, gym, consulting,
+  assessment, healthcare, or other professional services;
+- internal business operations, commercial research and development, or
+  research performed for the commercial advantage of a business;
+- selling or commercially distributing copies, modifications, devices,
+  kits, training materials, or hosted access incorporating the Work; and
+- using the Work in advertising, promotional offerings, or other business
+  activities even when the immediate recipient is not charged.
+
+Giving the Work away without a fee does not by itself make its use or
+redistribution non-commercial. Separate written permission is required for
+any commercial exception. Silence or public availability is not permission.
+
+4. Conditions of non-commercial redistribution
+
+Every redistribution of the Work or a derivative work must:
+
+a. include this complete license and preserve existing copyright,
+   attribution, and applicable third-party notices;
+b. identify the original project as DYNAMIS ZELOS and provide its source
+   repository address: https://github.com/Aguirato/dynamis-zelos;
+c. clearly identify modifications and their date, without suggesting that
+   a modified version is an official release or is endorsed by the Licensor;
+d. apply this same license to the redistributed Work and modifications of
+   the Work, without removing its non-commercial restrictions; and
+e. not impose terms or technical measures that prevent recipients from
+   exercising the non-commercial permissions granted by this license.
+
+The same-license requirement applies to the Work and its derivatives. It
+does not relicense independent, separable works or third-party components.
+
+5. Third-party materials, data, and names
+
+Third-party libraries, tools, hardware, trademarks, and other materials
+remain subject to their own terms. This license neither replaces those
+terms nor grants rights that the Licensor does not control. Merely naming
+or linking a third-party product does not make it part of the Work.
+
+This license does not transfer ownership of recordings or other data you
+provide or collect. It does not authorize commercial operation of the Work
+to create those recordings. You remain responsible for permissions relating
+to people, data, and third-party materials involved in your use.
+
+No trademark, branding, endorsement, or patent license is granted, except
+the permission to reproduce existing notices and identify the source as
+required by Section 4.
+
+6. Reserved rights and platform permissions
+
+All rights not expressly granted are reserved. Nothing in this license
+limits rights that cannot be restricted under applicable law or overrides
+permissions separately granted under the terms of the hosting platform,
+including GitHub's permissions for public repositories.
+
+7. Termination
+
+Your permissions under this license terminate automatically if you breach
+its terms. After termination, you must stop the activities for which this
+license supplied permission. Reinstatement requires written permission
+from the relevant copyright holder(s). Sections concerning reserved rights,
+third-party rights, disclaimers, and liability survive termination.
+
+8. Disclaimer and limitation of liability
+
+THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE, TITLE, AND NON-INFRINGEMENT. NO ACCURACY, SAFETY, PERFORMANCE,
+REGULATORY APPROVAL, OR FITNESS FOR MEDICAL OR OTHER PARTICULAR USE IS
+PROMISED.
+
+TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, THE LICENSOR AND
+CONTRIBUTORS ARE NOT LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY
+ARISING FROM OR IN CONNECTION WITH THE WORK OR ITS USE, WHETHER IN
+CONTRACT, TORT, OR OTHERWISE. THIS SECTION DOES NOT EXCLUDE LIABILITY THAT
+CANNOT LAWFULLY BE EXCLUDED.
+
+License identifier for project metadata: LicenseRef-Dynamis-Zelos-NC-1.0

@@ -1,0 +1,27 @@
+name: Firmware
+on:
+  push:
+    paths: ['firmware/**', '.github/workflows/firmware.yml']
+  pull_request:
+    paths: ['firmware/**', '.github/workflows/firmware.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test native packet encoder
+        run: |
+          g++ -std=c++11 -Wall -Wextra -Werror firmware/tests/protocol_test.cpp -o /tmp/zelos-protocol-test
+          /tmp/zelos-protocol-test
+      - uses: arduino/setup-arduino-cli@v2
+        with:
+          version: 1.2.2
+      - name: Install pinned ESP32 core
+        run: |
+          arduino-cli core update-index --additional-urls https://espressif.github.io/arduino-esp32/package_esp32_index.json
+          arduino-cli core install esp32:esp32@3.0.7 --additional-urls https://espressif.github.io/arduino-esp32/package_esp32_index.json
+      - name: Compile reference board
+        run: arduino-cli compile --warnings all --fqbn esp32:esp32:esp32:PartitionScheme=huge_app firmware/zelos_esp32
