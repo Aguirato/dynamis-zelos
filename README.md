@@ -2,6 +2,9 @@
 
 # DYNAMIS ZELOS
 
+[![Software checks](https://github.com/Aguirato/dynamis-zelos/actions/workflows/ci.yml/badge.svg)](https://github.com/Aguirato/dynamis-zelos/actions/workflows/ci.yml)
+[![Firmware](https://github.com/Aguirato/dynamis-zelos/actions/workflows/firmware.yml/badge.svg)](https://github.com/Aguirato/dynamis-zelos/actions/workflows/firmware.yml)
+
 **A local signal studio for exploring surface electromyography.**
 
 Explore a four-channel simulation, connect a reference BLE sensor, inspect

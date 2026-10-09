@@ -13,6 +13,7 @@ Local software verification on **2026-10-09**, Windows, Node.js **24.15.0**:
 - `npm test`: **29 passed, 0 failed**. This includes seven controller
   integration regressions for delayed storage, discontinuities, startup
   state, clock rollover and chart timing.
+- `npm run check`: passed JavaScript syntax checks.
 - Browser smoke check in the Codex embedded Chromium browser: demo rendering,
   reference capture, recording/stop, session comparison, history persistence
   after reload, hardware guide navigation, and CSV download exercised.
@@ -27,6 +28,21 @@ Local software verification on **2026-10-09**, Windows, Node.js **24.15.0**:
 These results describe the delivered source snapshot. CI provides additional
 commit-specific build results on GitHub; a configured workflow alone is not
 evidence of a passing run.
+
+GitHub Actions verification for source commit
+[`641a51d`](https://github.com/Aguirato/dynamis-zelos/commit/641a51d948333dc0a80a26a80aa4f26dd539c330),
+on **2026-10-09**:
+
+| Check | Observed result | Evidence |
+| --- | --- | --- |
+| Software tests and syntax checks | Passed on Windows and Ubuntu with Node 22 and 24 (all four matrix jobs) | [Software checks run](https://github.com/Aguirato/dynamis-zelos/actions/runs/37925924798) |
+| Native C++ packet encoder test | Passed with C++11, `-Wall -Wextra -Werror` | [Firmware run](https://github.com/Aguirato/dynamis-zelos/actions/runs/37925924892) |
+| ESP32 reference sketch | Compiled successfully using Arduino CLI 1.2.2 and Espressif core 3.0.7, Huge APP partition | [Firmware build job](https://github.com/Aguirato/dynamis-zelos/actions/runs/37925924892/job/113804719075) |
+
+The local Windows Arduino attempt was blocked by this workspace's toolchain
+directory access restrictions before sketch compilation. The successful
+firmware result above comes from the clean Ubuntu CI runner. No firmware was
+flashed onto a physical device during this verification.
 
 Record the tested commit, operating system, runtime, browser, command, date,
 and observed result when validating a release. Never label a proposed check
